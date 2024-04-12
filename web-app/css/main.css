@@ -1,0 +1,17 @@
+body, html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, sans-serif;
+ }
+
+ .centered-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   background-color: #f0f0f0; /* Light grey background */
+ }
+
+ h2 {
+   text-align: center;
+ }
