@@ -33,7 +33,7 @@ Before you begin, ensure you have the Java Development Kit (JDK) installed. Grai
 ### Installing Groovy
 
   1. **Download and Install Groovy**:
-     - [Download Groovy] (https://rendezview-test-bucket.s3.amazonaws.com/groovy-2.1.8-installer.exe).
+     - [Download Groovy](https://rendezview-test-bucket.s3.amazonaws.com/groovy-2.1.8-installer.exe).
 
   2. **Install Groovy**:
      - Install Groovy by following the steps provided in the installation wizard.
