@@ -1,10 +1,9 @@
 # Setting Up Grails 2.4 Environment
 
-This README provides instructions for setting up a Grails 2.4 development environment on Windows, macOS, and Linux. Grails is a powerful web framework, based on the Groovy language and built on top of the Spring framework.
-
+This README provides instructions for setting up a Grails 2.4 development environment on Windows, macOS, and Linux.
 ## Prerequisites
 
-Before you begin, ensure you have the Java Development Kit (JDK) installed. Grails 2.4 requires JDK 7 or 8.
+Before you begin, ensure you have the Java Development Kit (JDK) installed. Grails 2.4 requires JDK 8.
 
 ### Installing JDK
 
