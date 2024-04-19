@@ -1,6 +1,6 @@
 # Setting Up Project
 
-This README provides instructions for setting up a Grails 2.4 development environment on Windows, macOS, and Linux.
+This README provides instructions for setting up a Grails 2.4 development environment on Windows only.
 ## Prerequisites
 
 Before you begin, ensure you have the Java Development Kit (JDK) installed. Grails 2.4 requires JDK 8.
@@ -14,16 +14,9 @@ Before you begin, ensure you have the Java Development Kit (JDK) installed. Grai
    - Follow the installation instructions specific to your operating system.
 
 3. **Set JAVA_HOME**:
-   - **Windows**:
      - Right-click My Computer, and select Properties.
      - Go to the Advanced tab, and click Environment Variables.
      - Add a new system variable with the name `JAVA_HOME` and value as the path to your JDK installation.
-   - **macOS/Linux**:
-     - Open your terminal and add the following line to your `.bashrc`, `.zshrc`, or equivalent:
-       ```bash
-       export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-       ```
-     - Reload the configuration file, e.g., `source ~/.bashrc`.
 
 4. **Verify Installation:**:
    - Open a command prompt or terminal and type:
@@ -55,16 +48,8 @@ Before you begin, ensure you have the Java Development Kit (JDK) installed. Grai
    - Extract the downloaded ZIP file to a directory of your choice.
 
 3. **Set GRAILS_HOME**:
-   - **Windows**:
      - Add a new system variable with the name `GRAILS_HOME` and value as the path to your Grails installation.
      - Update the `Path` environment variable by appending `%GRAILS_HOME%\bin;`.
-   - **macOS/Linux**:
-     - Add the following lines to your `.bashrc`, `.zshrc`, or equivalent:
-       ```bash
-       export GRAILS_HOME=/path/to/grails
-       export PATH="$PATH:$GRAILS_HOME/bin"
-       ```
-     - Reload the configuration file, e.g., `source ~/.bashrc`.
 
 4. **Verify Grails Installation**:
    - In your command prompt or terminal, type:
